@@ -146,10 +146,9 @@ CREATE TABLE MEDICAL_RECORDS (
     DOCTORS_ID INT REFERENCES DOCTORS(DOCTORS_ID)    
 );    
 
-SELECT * FROM MEDICAL_RECORDS (```);
+SELECT * FROM MEDICAL_RECORDS;
 ---
-
-
+```
 
 ## Normalization  
 
@@ -196,6 +195,3 @@ This system enhances healthcare service delivery by enabling **fast, structured,
 Using analytics, machine learning, and visualization, I help you understand trends, improve efficiency, and plan for the future.
 
 Connect with me @https://www.linkedin.com/in/adetokunbo-olasupo-70aa042a1
-
-
---
