@@ -2,9 +2,9 @@
  
 
 ## Project Overview  
-This repository contains the **Database Design and Implementation Project** for **Splendor Infirmary Patient and Medical Management System**, completed by **Splendor Analytics** in **September 2024**.  
+This repository contains the **Database Design and Implementation Project** for **Toronto General Infirmary Patient and Medical Management System**, completed and designed by **X**quisite Analytics** in **September 2025**.  
 
-The system is designed to efficiently manage hospital operations, including patient information, doctor details, medical records, appointments, and departmental data. Its primary goal is to ensure **data integrity, scalability, and quick access to essential medical information** for both staff and administrators.  
+The system is designed to efficiently manage hospital operations, including patient information, doctor details, medical records, appointments, and departmental data. Its primary goal is to ensure **data integrity, scalability, and quick access to essential medical information** for both staffs and administrators.  
 
 ---
 
@@ -12,7 +12,8 @@ The system is designed to efficiently manage hospital operations, including pati
 - [Introduction](#introduction)  
 - [Database Design Process](#database-design-process)  
   - [Requirements Gathering](#requirements-gathering)  
-  - [Conceptual Design](#conceptual-design)  
+  - [Conceptual Design](#conceptual-design) 
+  - [ER Diagram](#ER-Diagram)
   - [Logical Design](#logical-design)  
   - [Physical Design](#physical-design)  
 - [Database Schema and Implementation](#database-schema-and-implementation)  
@@ -29,7 +30,7 @@ The system is designed to efficiently manage hospital operations, including pati
 ---
 
 ## Introduction  
-**Splendor Infirmary** required a scalable and efficient solution to manage its healthcare operations, including **patient registration, appointment scheduling, and medical records management**.  
+The **Toronto General Infirmary** required a scalable and efficient solution to manage its healthcare operations, including **patient registration, appointment scheduling, and medical records management**.  
 
 This database system was developed to:  
 - Enhance **operational efficiency**  
@@ -142,6 +143,8 @@ CREATE TABLE MEDICAL_RECORDS (
 SELECT * FROM MEDICAL_RECORDS;
 ---
 
+
+
 ## Normalization  
 
 - **First Normal Form (1NF):**  
@@ -172,9 +175,13 @@ A trigger was implemented to enforce appointment management rules:
 ---
 
 ## Conclusion  
-The **Splendor Infirmary Database System** is a **robust, scalable, and reliable solution** for managing healthcare operations. It provides:  
+The **Toronto General Infirmary Database System** is a **robust, scalable, and reliable solution** for managing healthcare operations. It provides:  
 - Efficient **patient and doctor data management**  
 - Accurate **medical records and appointment tracking**  
 - Strong **data integrity and business rule enforcement**  
 
 This system enhances healthcare service delivery by enabling **fast, structured, and secure access** to critical information.
+
+--- 
+
+## About me
