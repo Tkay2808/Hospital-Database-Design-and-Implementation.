@@ -2,7 +2,7 @@
  
 
 ## Project Overview  
-This repository contains the **Database Design and Implementation Project** for **Toronto General Infirmary Patient and Medical Management System**, completed and designed by **X**quisite Analytics** in **September 2025**.  
+This repository contains the **Database Design and Implementation Project** for **Toronto General Infirmary Patient and Medical Management System**, completed and designed by **X**quisite** **Analytics** in **September 2025**.  
 
 The system is designed to efficiently manage hospital operations, including patient information, doctor details, medical records, appointments, and departmental data. Its primary goal is to ensure **data integrity, scalability, and quick access to essential medical information** for both staffs and administrators.  
 
@@ -30,6 +30,7 @@ The system is designed to efficiently manage hospital operations, including pati
 ---
 
 ## Introduction  
+
 The **Toronto General Infirmary** required a scalable and efficient solution to manage its healthcare operations, including **patient registration, appointment scheduling, and medical records management**.  
 
 This database system was developed to:  
@@ -49,6 +50,7 @@ Through collaboration with stakeholders, the following requirements were identif
 - Support **real-time appointment scheduling and tracking**  
 
 ### Conceptual Design  
+
 The **Entity-Relationship (ER) model** identified the following entities:  
 - **Patients**: Personal and contact details  
 - **Doctors**: Names, specialties, availability  
@@ -163,13 +165,16 @@ SELECT * FROM MEDICAL_RECORDS;
 
 ---
 
-## Triggers and Business Logic  
-A trigger was implemented to enforce appointment management rules:  
+## Limitations and Future Improvements  
 
-- If an appointment is marked as **Canceled** without rebooking, the **transaction is rolled back**.  
-- Ensures appointments maintain **data integrity and business rules**.  
-
----
+- The system currently does not implement triggers or stored procedures to enforce complex business rules.  
+- No role-based access control is included (e.g., separate permissions for doctors, nurses, and admin staff).  
+- Billing and pharmacy modules are not part of this version.  
+- Future updates may include:
+  
+  - Adding triggers for automated discharge and appointment handling.  
+  - Implementing stored procedures for appointment booking and patient record updates.  
+  - Expanding to cover billing, pharmacy inventory, and lab management.
 
 ## Justification of Design Choices  
 - **Separation of Concerns:** Each table manages one type of data, reducing redundancy.  
