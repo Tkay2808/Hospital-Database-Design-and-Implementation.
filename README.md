@@ -2,7 +2,7 @@
  
 
 ## Project Overview  
-This repository contains the **Database Design and Implementation Project** for **Toronto General Infirmary Patient and Medical Management System**, completed and designed by **X**quisite** **Analytics** in **September 2025**.  
+This repository contains the **Database Design and Implementation Project** for **Toronto General Infirmary Patients and Medical Management System**, completed and designed by **X**quisite **Analytics** in **September 2025**.  
 
 The system is designed to efficiently manage hospital operations, including patient information, doctor details, medical records, appointments, and departmental data. Its primary goal is to ensure **data integrity, scalability, and quick access to essential medical information** for both staffs and administrators.  
 
@@ -180,7 +180,6 @@ SELECT * FROM MEDICAL_RECORDS;
 - **Separation of Concerns:** Each table manages one type of data, reducing redundancy.  
 - **Data Integrity:** Foreign keys and constraints prevent inconsistent or orphaned records.  
 - **Scalability:** Supports future hospital growth with minimal structural changes.  
-- **Business Rule Enforcement:** Triggers ensure smooth, rule-compliant operations.  
 
 ---
 
