@@ -1,5 +1,5 @@
 # Hospital-Database-Design-and-Implementation.
- 
+ ![image](Database.png)
 
 ## Project Overview  
 This repository contains the **Database Design and Implementation Project** for **Toronto General Infirmary Patients and Medical Management System**, completed and designed by **X**quisite **Analytics** in **September 2025**.  
@@ -60,7 +60,7 @@ The **Entity-Relationship (ER) model** identified the following entities:
 --- 
 
 ### ER Diagram 
-
+![image](ER_Diagram.JPG)
 
 ---
 
