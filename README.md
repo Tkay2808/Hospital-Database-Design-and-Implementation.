@@ -55,6 +55,12 @@ The **Entity-Relationship (ER) model** identified the following entities:
 - **Departments**: Medical divisions and organizational structure  
 - **Appointments**: Scheduling and status  
 - **Medical Records**: Historical data of diagnoses and treatments  
+--- 
+
+### ER Diagram 
+
+
+---
 
 ### Logical Design  
 The ER model was mapped into **relational tables**, with **primary keys** and **foreign keys** enforcing relationships and referential integrity.  
@@ -140,7 +146,7 @@ CREATE TABLE MEDICAL_RECORDS (
     DOCTORS_ID INT REFERENCES DOCTORS(DOCTORS_ID)    
 );    
 
-SELECT * FROM MEDICAL_RECORDS;
+SELECT * FROM MEDICAL_RECORDS (...);
 ---
 
 
@@ -175,6 +181,7 @@ A trigger was implemented to enforce appointment management rules:
 ---
 
 ## Conclusion  
+
 The **Toronto General Infirmary Database System** is a **robust, scalable, and reliable solution** for managing healthcare operations. It provides:  
 - Efficient **patient and doctor data management**  
 - Accurate **medical records and appointment tracking**  
@@ -185,3 +192,10 @@ This system enhances healthcare service delivery by enabling **fast, structured,
 --- 
 
 ## About me
+- I transform complex data into clear, actionable insights.
+Using analytics, machine learning, and visualization, I help you understand trends, improve efficiency, and plan for the future.
+
+Connect with me @https://www.linkedin.com/in/adetokunbo-olasupo-70aa042a1
+
+
+--
