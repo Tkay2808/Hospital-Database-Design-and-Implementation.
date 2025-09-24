@@ -69,7 +69,7 @@ The ER model was mapped into **relational tables**, with **primary keys** and **
 
 ### Physical Design  
 The database was implemented in **SQL Server (T-SQL)** with:  
-- **Triggers** for appointment status handling  
+
 - **Constraints** for data accuracy  
 - **Indexes and optimized queries** for performance  
 
